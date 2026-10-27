@@ -8,6 +8,7 @@
     "dev:client": "npm --prefix client run dev",
     "seed": "npm --prefix server run seed",
     "build": "npm --prefix server run build && npm --prefix client run build",
+    "vercel-build": "cd client && npm run build",
     "test": "npm --prefix server test"
   },
   "devDependencies": {},
