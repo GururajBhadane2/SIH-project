@@ -1,0 +1,15 @@
+{
+  "name": "aicte-flowx",
+  "version": "1.0.0",
+  "description": "AICTE FlowX - Intelligent Approval Workflow & Compliance Command Centre (SIH26262 Prototype)",
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed",
+    "build": "npm --prefix server run build && npm --prefix client run build",
+    "test": "npm --prefix server test"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
